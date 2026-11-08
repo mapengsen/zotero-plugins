@@ -2722,6 +2722,16 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'mapengsen/zotero-title-merge',
+    nameZh: '同标题合并',
+    summaryZh: '按标题跨类型合并文献，支持主条目优先级、预览和原始元数据归档。',
+    keywords: ['title merge', '同标题合并', '跨类型合并', '文献去重'],
+    releases: [],
+    tags: ['metadata', 'utility'],
+    discoverReleases: true,
+    publishInShadow: true,
+  },
+  {
     repo: 'max3925vats/zotero-docling',
     releases: [
       {
