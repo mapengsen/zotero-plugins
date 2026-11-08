@@ -2722,6 +2722,15 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'mapengsen/zotero-centers',
+    summaryZh: '全局搜索、短标题与其他行内编辑、同标题合并、文库与目录文献总数、Index 首列，一次安装全部使用。',
+    keywords: ['zotero-centers', 'global search', 'inline extra', 'title merge', '全局搜索', '文献合并', '目录计数', 'Index'],
+    releases: [],
+    tags: ['metadata', 'utility'],
+    discoverReleases: true,
+    publishInShadow: true,
+  },
+  {
     repo: 'max3925vats/zotero-docling',
     releases: [
       {
